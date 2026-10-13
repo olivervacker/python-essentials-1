@@ -32,5 +32,5 @@ python-essentials-1/
 ## 👤 Author
 
 **Ditt Namn**
-- GitHub: [@ditt-användarnamn](https://github.com/olivervacker)
-- LinkedIn: [Ditt Namn](https://linkedin.com/in/oliver-vacker-b3836aa6)
+- GitHub: [@olivervacker](https://github.com/olivervacker)
+- LinkedIn: [oliver-vacker-b3836aa6](https://linkedin.com/in/oliver-vacker-b3836aa6)
