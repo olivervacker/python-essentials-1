@@ -31,6 +31,6 @@ python-essentials-1/
 
 ## 👤 Author
 
-**Ditt Namn**
+**Oliver Vacker**
 - GitHub: [@olivervacker](https://github.com/olivervacker)
 - LinkedIn: [oliver-vacker-b3836aa6](https://linkedin.com/in/oliver-vacker-b3836aa6)
