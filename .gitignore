@@ -218,3 +218,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Continue-konfiguration (innehåller API-nycklar)
+.continue/
+config.yaml
