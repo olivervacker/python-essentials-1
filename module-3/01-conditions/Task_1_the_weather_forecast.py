@@ -11,9 +11,9 @@
 # === STEG 1: FRÅGA ANVÄNDAREN OM TEMPERATUREN ===
 temperatur = float(input("Vad är temperaturen utomhus? "))  # Frågar användaren om temperaturen och konverterar svaret till ett decimaltal
 if temperatur > 20:  # Kontrollerar om temperaturen är över 20 grader
-# input() läser användarens svar som en sträng
-# float() konverterar strängen till ett decimaltal
-# temperatur lagrar det inmatade värdet
+# input() funbktionen input läser användarens svar som en sträng (input ger alltid en sträng)
+# float() funktionen float konverterar strängen till ett decimaltal
+# variabeln temperatur lagrar det inmatade värdet
 
 # === STEG 2: KOLLA OM TEMPERATUREN ÄR ÖVER 20 === 
     print("Det är varmt ute!")  # Skriver ut meddelandet om temper turen är över 20 grader
