@@ -22,4 +22,4 @@ if temperatur > 20: # En villkorsats. Om temperaturen är större än 20, körs 
 
 # === STEG 3: SKRIV UT RÄTT MEDDELANDE ===
 else: # En if-else sats. Om temperaturen inte är större än 20, körs koden under.
-    print("Det är kallt ute") # Skriv ut meddelande om det är kallt.
+        print("Det är kallt ute") # Skriv ut meddelande om det är kallt.
