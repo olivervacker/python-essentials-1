@@ -12,13 +12,13 @@
 # ============================================================
 
 # === STEG 1: SÄTT DET HEMLIGA TALET OCH STARTA GISSNINGEN ===
-gissning = 0
-hemligt_tal = 7
+gissning = 0 # Sätt gissningen till 0 för att börja med en tom gissning.
+hemligt_tal = 7 # Sätt hemligt_tal till 7 för att börja med ett hemligt tal.
 
 
 # === STEG 2: WHILE-LOOP FÖR ATT GISSA ===
-while gissning != hemligt_tal:
-    gissning = int(input("Gissa ett tal (1-10): "))
+while gissning != hemligt_tal: # Låt while-loopen fortsätta så länge gissningen är olika hemligt_tal. 
+    gissning = int(input("Gissa ett tal (1-10): ")) # Läs in gissningen från användaren och konvertera till heltal med int och input.
 
     # Om gissningen inte stämmer, skriv ut felmeddelandet och låt användaren försöka igen.
     if gissning != hemligt_tal:
