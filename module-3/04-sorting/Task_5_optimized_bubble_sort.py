@@ -34,10 +34,10 @@ print("Före sortering", siffror)
 
 # === STEG 4: OPTIMERAD BUBBLE SORT ===
 
-swapped = True
+swapped = True # True sätts för att sätta igång while loopen ska fortsätta.
 
 while swapped:
-        swapped = False
+        swapped = False # Sätter swapped till False för att börja om sorteringen inte har skett något ändringar.
 
         for i in range(len(siffror) - 1): 
             if siffror[i] > siffror[i + 1]:
