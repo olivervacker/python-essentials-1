@@ -17,19 +17,25 @@
 # ============================================================
 
 # === STEG 1 & 2: SKAPA 3D-LISTAN ===
-# Skriv din kod här
+hotell = [[[False for r in range(4)] for f in range(3)] for b in range(2)] # List comprehension lista som loopar 4 rum, 3 byggnader och 2 våningar
+# r = 4 = 4 rum
+# f = 3 = 3 våningar
+# b = 2 = 2 byggnader
 
 
 
 # === STEG 3: SKRIV UT HELA HOTELLET ===
-# Skriv din kod här
+print(hotell)
 
 
 
 # === STEG 4: BOKA ETT RUM ===
-# Skriv din kod här
+hotell[0][2][1] = True # Boka rum 1 i byggnad 1, våning 2, rum 1
+print(hotell) # Skriv ut hotell igen för att se ändringen
+
 
 
 
 # === STEG 5: SKRIV UT BYGGNAD 1 ===
-# Skriv din kod här
+print(hotell[1]) # Skriv ut byggnad 1
+
