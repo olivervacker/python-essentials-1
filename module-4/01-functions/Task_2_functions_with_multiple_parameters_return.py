@@ -13,19 +13,25 @@
 # ============================================================
 
 # === STEG 1 & 2: SKAPA FUNKTIONEN ADDERA ===
-# Skriv din kod här
+def addera (a, b):
+    return a + b
 
 
 
 # === STEG 3 & 4: ANROPA OCH SKRIV UT ===
-# Skriv din kod här
 
+summa = addera(5, 10)
+
+print(f"Summan är: {summa}")
 
 
 # === STEG 5 & 6: SKAPA FUNKTIONEN BERAKNA_AREA ===
-# Skriv din kod här
+def berakna_area(längd, bredd):
+    return längd * bredd
 
 
 
 # === STEG 7: ANROPA OCH SKRIV UT ===
-# Skriv din kod här
+    
+area = berakna_area(4, 6)
+print (f"Area: {area}")
