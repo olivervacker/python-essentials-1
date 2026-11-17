@@ -25,11 +25,12 @@ for namn in betyg.keys(): # Loopar genom alla namn med .keys (nycklar) i diction
 
 # === STEG 3: LOOPS MED .VALUES() ===
 
-for betyg in betyg.values(): # Loopar genom alla betyg med .values (värden) i dictionaryn
-    print(betyg)
+for betygsvar in betyg.values(): # Loopar genom alla betyg med .values (värden) i dictionaryn
+    print(betygsvar)
 
 
 
 # === STEG 4: LOOPS MED .ITEMS() ===
 
-for namn, betyg in betyg.items(): # Loopar genom alla namn och betyg med .items (nycklar och värden) i dictionaryn
+for namn, betygsvar in betyg.items(): # Loopar igenom .items() för att få både namn och betyg (nycklar och värden)
+    print(f"{namn} fick betyget {betygsvar}")
