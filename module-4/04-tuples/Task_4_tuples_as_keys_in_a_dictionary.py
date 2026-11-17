@@ -18,18 +18,33 @@
 
 # === STEG 1-3: SKAPA DICTIONARY MED TUPLE-NYCKLAR ===
 
+# Skapa en tuple som innehåller en dictionary med tupel-nycklarna
+
+bokinventering = {("Python Crash Course", "Eric Matthes"): 5, ("Clean Code", "Robert C. Martin"): 2}
 
 
 
 # === STEG 4: SKRIV UT HELA DICTIONARYN ===
-# Skriv din kod här
+
+print(bokinventering)
 
 
 
 # === STEG 5: HÄMTA ETT SPECIFIKT VÄRDE ===
-# Skriv din kod här
 
+print (bokinventering[("Clean Code", "Robert C. Martin")]) # använd klammerparanteser för att hämta ett specifikt värde
 
 
 # === STEG 6: LOOPA GENOM DICTIONARYN ===
-# Skriv din kod här
+
+for (titel, författare) in bokinventering.items(): # Items ger en tupel av både nyckeln och värdena i dictionaryn, som vi kan skriva ut med titel och författare i variabeln titel och författare respestivt. 
+    print(f"Titel: {titel}, Författare: {författare}") # använd items() för att loopa genom alla tupel-nycklarna i dictionaryn
+
+
+# Förutom items() så finns values() att använda för att loopa genom alla värden i dictionaryn.
+# Sen finns också keys() för att loopa genom alla nycklar i dictionaryn. 
+
+
+# Listor kan ändras (mutable), så Python kan inte garantera att de förblir desamma. 
+# Tupler är oföränderliga (immutable), så de är "hashable" och kan användas som nycklar.
+
