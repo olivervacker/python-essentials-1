@@ -16,7 +16,8 @@
 
 
 # Tuple unpacking (uppackning) innebär att du
-# kan tilldela värdena i en tuple till flera variabler på en och samma rad, istället för att göra det en i taget.
+# kan tilldela värdena i en tuple till flera variabler på en och samma rad, 
+# istället för att göra det en i taget.
 
 # === STEG 1-3: PACKA UPP EN ENKEL TUPLE ===
 
