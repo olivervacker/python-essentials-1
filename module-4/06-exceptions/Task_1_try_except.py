@@ -26,3 +26,9 @@ try:
     print("Du angav talet: ", tal)
 except ValueError:
     print("Fel: Du angav inte ett giltigt heltal!")
+
+# Ordningen spelar roll!
+
+# Om du hade haft en generell except: först, 
+# skulle den fånga alla fel och de specifika except-blocken skulle aldrig köras. 
+# Därför är regeln: Specifika fel först, generella fel sist.
